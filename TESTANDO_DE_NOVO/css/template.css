@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html,
+body,
+#wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#wrap {
+    font-family: Roboto sans-serif;
+}
+
+#wrap>h1 {
+    text-align: left;
+}
+
+#wrap>form {
+    text-align: right;
+    padding: 0.5px;
+    position: relative;
+}
+
+#naves {
+    text-align: center;
+    padding: 2.5px;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgb(12, 4, 4);
+    font-size: 18px;
+}
+#naver :hover {
+    color: black;
+}
+
+article img {
+    width: 380px;
+    height: auto;
+}
+
+article #texto {
+    text-align: justify;
+    position: relative
+
+}
